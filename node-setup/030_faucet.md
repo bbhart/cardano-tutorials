@@ -1,5 +1,7 @@
 # Using the faucet
 
+## Latest documentation has been moved to https://docs.cardano.org/en/latest/ .
+
 UPDATED FOR TAG: 1.14.2
 
 The faucet allows you to get some "test ada",
@@ -11,7 +13,7 @@ If you do not have such an address, find out how to create one [here](020_keys_a
 
 To use the faucet, simply enter
 
-    curl -v -XPOST "hhttps://faucet.shelley-testnet.dev.cardano.org/send-money/YOUR-ADDRESS
+    curl -v -XPOST "https://faucet.shelley-testnet.dev.cardano.org/send-money/YOUR-ADDRESS
 
 into a terminal window.
 If your address is saved to a file, for example `payment.addr`, you can instead type
